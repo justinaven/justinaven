@@ -1,5 +1,5 @@
 ---
-layout: blog-home2
+layout: blog-home
 title:  Blog
 ---
 
@@ -18,7 +18,8 @@ title:  Blog
     {{ post.content }}
   </div>
   <div>
-    {{ post.categories }}</div>
+    <span class="date">{{ post.category }}</span>
+  </div>
 {% endfor %}
 
 
